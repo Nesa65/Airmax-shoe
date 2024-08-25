@@ -1,0 +1,136 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Mulish,sans-serif;
+}
+.bg-card{
+    background-color: red;;
+    background-image:url("/images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:800px;
+    height:600px;
+    /* position: relative; */
+}
+.main-card{
+    width:600px;
+    height:400px;
+    background-color: red;
+    position:relative;
+    top:100px;
+    left:130px;
+    background-color:#2a2f40;
+  
+}
+.main-card .left{
+    width:300px;
+    height:400px;
+    display: inline-block;
+    /* position: relative;
+    top:0;
+    left:0; */
+}
+
+.main-card .right{
+    width:300px;
+    height:400px;
+    display: inline-block;
+    background-color: red;
+    padding:10px;
+    position:absolute;
+    top:0;
+    right:0;
+}
+.product-name{
+    background-color:green;
+}
+.product-name h1{
+    color:orange;
+    display: inline-block;
+}
+.product-name ul{
+    /* background-color: green; */
+    display: inline-block;
+    position:relative;
+    left:50px;
+}
+.product-name ul li{
+    display: inline-block;
+    list-style: none;
+    margin:0 10px;
+}
+.currency-150{
+    font-size:20px;
+    font-weight:bold;
+    display: inline-block;
+    margin-right:20px;
+}
+.currency-200{
+    font-size:15px;
+    display: inline-block;
+    text-decoration: line-through;
+}
+.details{
+    /* margin:30px 0; */
+    position:relative;
+    top:30px;
+    background-color: pink;
+
+}
+.details h2{
+ /* position:relative;
+ top:10px; */
+ font-size:25px;
+ font-weight:bold;
+ margin:10px 0;
+ 
+
+}
+.details h4{
+    /* position:relative;
+    top:20px; */
+
+}
+.size-number{
+    background-color:pink;
+    position:relative;
+    top:60px;
+    color:white;
+    display:inline-block;
+    list-style: none;
+}
+.size-number li{
+    display:inline-block;
+    margin:0 10px;
+    /* position:relative;
+    top:60px; */   
+}
+.size-number li a{
+    text-decoration:none;
+    color:white;
+    display:inline-block;
+    text-align: center;
+    width:20px;
+}
+.size-number li a:hover{
+    /* border:1px solid black; */
+    border-radius: 50%;
+    background-color:orange;
+}
+.color-category{
+    background-color:rgb(198, 198, 216);
+    position:relative;
+    top:80px;
+    display:inline-block;
+    list-style: none;
+
+}
+.color-category li{
+    display:inline-block;
+    margin:0 10px;
+}
+/* .color-category a:hover{
+    border-radius:50% ;
+    width:20px;
+} */
