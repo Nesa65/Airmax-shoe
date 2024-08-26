@@ -27,7 +27,6 @@
 .main-card .left{
     width:300px;
     height:400px;
-    display: inline-block;
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
     background-color:#ff6d39;
@@ -50,7 +49,6 @@ div.left img{
 .main-card .right{
     width:300px;
     height:400px;
-    display: inline-block;
     padding:10px;
     position:absolute;
     top:15px;
